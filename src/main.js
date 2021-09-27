@@ -3,4 +3,7 @@ import App from './App.vue'
 import store from './store'
 import router from './router'
 
-createApp(App).use(router).use(store).mount('#app')
+import LvInput from './componentes/LvInput.vue'
+
+createApp(App).use(router).use(store).component('lv-input', LvInput).
+mount('#app')
