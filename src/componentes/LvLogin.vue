@@ -1,6 +1,6 @@
 <template>
   <h2>Entre no sistema</h2>
-  <router-link to="/registrar"></router-link>
+ <router-link to="/registrar">Registre-se</router-link>
   <hr />
 
   <lv-input titulo="Email">

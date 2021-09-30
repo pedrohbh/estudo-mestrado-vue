@@ -34,4 +34,4 @@ test('saindo do sistema com mock, verificando se botão está lá',
         const botao = wrapper.find('button')
         await botao.trigger('click')
         expect(acao).toEqual('saiu')
-    })
+})
