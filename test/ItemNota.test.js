@@ -15,3 +15,4 @@ test('iniciando item da lista', async () => {
     const titulo = wrapper.find('span')
     expect(titulo.text()).toEqual('academia')
 })
+
