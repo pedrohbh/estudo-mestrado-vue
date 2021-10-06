@@ -16,6 +16,7 @@ test('lista com 0 elementos', async () => {
     const lista = wrapper.findAll('li')
     expect(lista.length).toEqual(0)
 })
+
 test('lista com 2 elementos', async () => {
     const wrapper = mount(LvListaNotas, {
         global: {
